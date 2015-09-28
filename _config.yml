@@ -1,0 +1,52 @@
+# Site Info
+title:              "Coderegation @ BalaBit"
+description:        "We congregate spontaneously to watch nerdy videos."
+google_verify:      # Put your Google Verification here
+google_analytics:   UA-XXXXXXX-X # Put your Google Analytics code
+
+# Author Info
+author_name:        "BalaBit Congregation Team"
+author_email:       info@balabit.com
+twitter_username:   balabit
+
+# Site Settings
+baseurl:            "/coderegation" # Base URL must end WITHOUT a slash, default: ""
+permalink:          /notes/:year-:month-:day-:title # Post permalink
+timezone:           Europe/Budapest
+
+# Site Build
+markdown:           kramdown
+kramdown:
+    input:          GFM
+sass:
+    style:          :compressed
+future:             false
+
+# Other Params
+include:            [ "robots.txt" ]
+exclude:            [ "LICENSE", "README.md", "CNAME", "vendor", "Gemfile" ]
+gems:
+  - jekyll-sitemap
+  - jemoji
+
+compress_html:
+    clippings:      all
+    ingore:
+        envs:       [ "test" ]
+
+defaults:
+  -
+    scope:
+      path:         ""
+    values:
+      layout:       "null"
+  -
+    scope:
+      type:         "pages"
+    values:
+      layout:       "page"
+  -
+    scope:
+      type:         "posts"
+    values:
+      layout:       "post"

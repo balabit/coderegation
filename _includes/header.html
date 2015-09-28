@@ -1,0 +1,14 @@
+<aside class="logo">
+	<a href="{{ site.baseurl }}/" title="Coderegation @ BalaBit">
+		<img src="https://avatars1.githubusercontent.com/u/986981?v=3&s=80" class="gravatar" alt="Balabit Logo">
+	</a>
+	<div>Coderegation @ <a href="http://balabit.com" title="Balabit" target="_blank">BalaBit</a></div>
+</aside>
+{% if page.url == '/index.html' || page.url == '/' %}
+	<div class="header-about">
+		<a href="{{ site.baseurl }}/about.html" title="What is Coderegation?" class="header-about-button">
+		What is Coderegation?
+		<span class="header-about-button-line"></span>
+		</a>
+	</div>
+{% endif %}
