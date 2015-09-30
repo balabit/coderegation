@@ -20,7 +20,6 @@ kramdown:
     input:          GFM
 sass:
     style:          :compressed
-future:             false
 
 # Other Params
 include:            [ "robots.txt" ]
