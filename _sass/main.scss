@@ -1,4 +1,4 @@
-$main-color: #295D73;
+$main-color: #2382C4;
 
 body {
   font-family: 'Roboto', sans-serif;
@@ -117,25 +117,7 @@ span[data-note] {
   animation: fadein 3s;
 
   > a {
-    color: #000;
-    text-decoration: none;
-    font-weight: 700;
-    height: 100px;
-    width: 100px;
-    font-size: 1.5em;
-    border-radius: 100%;
-    display: inline-block;
-    text-align: center;
-    line-height: 100px;
-    box-sizing: border-box;
     border: none;
-
-    .gravatar {
-      margin-top: 5px;
-      -webkit-border-radius: 50%;
-      -moz-border-radius: 50%;
-      border-radius: 50%;
-    }
   }
 
   > div > a {
