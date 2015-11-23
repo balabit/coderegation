@@ -10,6 +10,5 @@ In this talk, I describe a style of guidelines that can be deployed to help most
 
 The core guidelines and a guideline support library reference implementation will be open source projects freely available on all major platforms (initially, GCC, Clang, and Microsoft).
 
-[Presentation Slides, PDFs, Source Code and other presenter materials are
-available](https://github.com/isocpp/CppCoreGuidelines/blob/master/talks/Stroustrup%20-%20CppCon%202015%20keynote.pdf)
+[Presentation Slides, PDFs, Source Code and other presenter materials are available](https://github.com/isocpp/CppCoreGuidelines/blob/master/talks/Stroustrup%20-%20CppCon%202015%20keynote.pdf)
 
