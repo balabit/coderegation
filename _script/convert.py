@@ -33,14 +33,14 @@ def get_body(in_file):
 
 
 def write_output(headers, body):
-      with open(get_filename(headers), 'w', encoding='utf8')  as md_file:
-          md_file.write('---\n')
-          md_file.write('speaker: ' + headers['speaker'] + '\n')
-          md_file.write('topic: ' + headers['topic'].replace(':', ' -') + '\n')
-          if 'video' in headers:
-              md_file.write('video: ' + headers['video'] + '\n')
-          md_file.write('---\n\n')
-          md_file.write(body + '\n')
+    with open('../_posts/' + get_filename(headers), 'w', encoding='utf8')  as md_file:
+        md_file.write('---\n')
+        md_file.write('speaker: ' + headers['speaker'] + '\n')
+        md_file.write('topic: ' + headers['topic'].replace(':', ' -') + '\n')
+        if 'video' in headers:
+            md_file.write('video: ' + headers['video'] + '\n')
+        md_file.write('---\n\n')
+        md_file.write(body + '\n')
 
 
 def convert_to_coderegation_post(filename):
@@ -51,4 +51,5 @@ def convert_to_coderegation_post(filename):
 
 
 if __name__ == "__main__":
+    os.chdir(os.path.dirname(__file__))
     convert_to_coderegation_post(SOURCE_FILENAME)
