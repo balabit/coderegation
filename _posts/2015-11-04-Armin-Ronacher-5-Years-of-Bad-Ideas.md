@@ -2,6 +2,7 @@
 speaker: Armin Ronacher
 topic: 5 Years of Bad Ideas
 video: https://www.youtube.com/watch?v=8e0l_Dt28MQ
+issue: 18
 ---
 
 What was my motivation for working with Python after two years of PHP? There is so much you can do. Functions are objects you can pass around, you can decompile functions to see how they work internally, you can alias a bound method to a global function and it will just work. You can change import semantics, override the method resolution order, you can write metaclasses, you can hook into the CPython interpreter API and much more.

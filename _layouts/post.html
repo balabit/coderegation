@@ -27,6 +27,10 @@ layout: default
       <p>Video URL: <a href="{{ page.video }}">{{ page.video }}</a></p>
   {% endif %}{% endif %} 
 
+  {% if page contains 'issue' %}
+      <p>Discussion: <a href="https://github.com/balabit/coderegation/issues/{{ page.issue }}">Issue #{{ page.issue }}</a></p>
+  {% endif %}
+
 	{{ content }}
 
   <p><em>Join us any time and get to be a better coder!</em></p>

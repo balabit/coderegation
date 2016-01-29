@@ -39,6 +39,8 @@ def write_output(headers, body):
         md_file.write('topic: ' + headers['topic'].replace(':', ' -') + '\n')
         if 'video' in headers:
             md_file.write('video: ' + headers['video'] + '\n')
+        if 'issue' in headers:
+            md_file.write('issue: ' + headers['issue'] + '\n')
         md_file.write('---\n\n')
         md_file.write(body + '\n')
 

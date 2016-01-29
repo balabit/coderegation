@@ -2,6 +2,7 @@
 speaker: Rich Hickey
 topic: Hammock Driven Development
 video: https://www.youtube.com/watch?v=f84n5oFoZBc
+issue: 19
 ---
 
 Rich Hickey's second, "philosophical" talk at the first Clojure Conj, in Durham, North Carolina on October 23rd, 2010. 

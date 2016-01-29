@@ -2,6 +2,7 @@
 speaker: Jeff Whelpley, Patrick Stapleton
 topic: Angular 2 Server Rendering
 video: https://www.youtube.com/watch?v=0wvZ7gakqV4
+issue: 11
 ---
 
 Jeff Whelpley, Patrick Stapleton Talk about 'Angular 2 Server Rendering' at [AngularU in San Francisco](https://AngularU.com).

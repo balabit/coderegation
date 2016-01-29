@@ -2,6 +2,7 @@
 speaker: Christian Schaffner
 topic: Quantum Cryptography
 video: https://www.youtube.com/watch?v=424LHQQB2DE
+issue: 49
 ---
 
 I will entertain the audience with a science talk about quantum cryptography, covering both some classics (Quantum Key Distribution) and the latest developments (position-based quantum cryptography) in this fascinating research field.

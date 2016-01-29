@@ -1,6 +1,7 @@
 date: 2015-08-27
 speaker: Árvíztűrő Tükörfúrógép
 topic: Bick Buck Bunny
+issue: 12345
 video: https://www.youtube.com/watch?v=aqz-KE-bpKQ
 
 The convert.py script helps you to create a well-formatted item for the Coderegation blog post.
@@ -10,6 +11,7 @@ The header (everything in the first block) can contain the following attributes:
 - date (required): it will be used to create the appropriate filename for Jekyll
 - speaker and topic (required): for filename it will be converted to ASCII, and they will be normalized some way.
 - video (opional): if you don't put the video here, you must add it yourself to the body of the blog post.
+- issue (opional): if you include a GitHub issue number, then it will be linked in the post as "Discussion"
 
 The header can be formatted as [Jekyll's front matter](https://jekyllrb.com/docs/frontmatter/), and you can miss the tripple-dashes.
 

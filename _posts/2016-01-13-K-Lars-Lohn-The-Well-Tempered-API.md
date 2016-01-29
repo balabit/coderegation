@@ -2,6 +2,7 @@
 speaker: K Lars Lohn
 topic: The Well Tempered API
 video: https://air.mozilla.org/the-well-tempered-api-2/
+issue: 3
 ---
 
 Centuries ago, a revolution in music enabled compositions to still be playable hundreds of years later. With compromises in tuning, a universal musician's API became possible: the piano keyboard.

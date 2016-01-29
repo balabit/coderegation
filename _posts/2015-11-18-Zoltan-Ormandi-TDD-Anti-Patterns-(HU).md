@@ -2,6 +2,7 @@
 speaker: Zoltán Ormándi
 topic: TDD Anti-Patterns (HU)
 video: https://www.youtube.com/watch?v=Odn2Z2XAhCk
+issue: 15
 ---
 
 This is a Hungarian-speaking event.

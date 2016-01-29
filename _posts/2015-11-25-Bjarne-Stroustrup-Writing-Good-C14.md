@@ -2,6 +2,7 @@
 speaker: Bjarne Stroustrup
 topic: Writing Good C++14
 video: https://www.youtube.com/watch?v=1OEu9C51K2A
+issue: 9
 ---
 
 How do we use C++14 to make our code better, rather than just different? How do we do so on a grand scale, rather than just for exceptional programmers? We need guidelines to help us progress from older styles, such as “C with Classes”, C, “pure OO”, etc. We need articulated rules to save us from each having to discover them for ourselves. Ideally, they should be machine-checkable, yet adjustable to serve specific needs.
