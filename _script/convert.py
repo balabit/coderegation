@@ -53,5 +53,5 @@ def convert_to_coderegation_post(filename):
 
 
 if __name__ == "__main__":
-    os.chdir(os.path.dirname(__file__))
+    os.chdir(os.path.dirname(os.path.abspath(__file__)))
     convert_to_coderegation_post(SOURCE_FILENAME)
