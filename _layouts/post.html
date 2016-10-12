@@ -27,7 +27,7 @@ layout: default
       <p>Video URL: <a href="{{ page.video }}">{{ page.video }}</a></p>
   {% endif %}{% endif %} 
 
-  {% if page contains 'issue' %}
+  {% if page.issue %}
       <p>Discussion: <a href="https://github.com/balabit/coderegation/issues/{{ page.issue }}">Issue #{{ page.issue }}</a></p>
   {% endif %}
 
@@ -36,7 +36,7 @@ layout: default
   <p><em>Join us any time and get to be a better coder!</em></p>
 
 {% if page.tags.size > 0 %}
-<p>Tags: 
+<p>Tags:
 {% for tag in page.tags %}
 <a href="{{site.baseurl}}/tags.html#{{tag}}-ref">{{tag}}</a>
 {% endfor %}
