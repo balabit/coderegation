@@ -1,5 +1,5 @@
 ---
-speaker: "Uncle" Bob Martin
+speaker: "\"Uncle\" Bob Martin"
 topic: The Future of Programming
 video: https://www.youtube.com/watch?v=ecIWPzGEbFc
 issue: 144
