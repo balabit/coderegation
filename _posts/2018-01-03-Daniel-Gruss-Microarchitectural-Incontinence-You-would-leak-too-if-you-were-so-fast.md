@@ -1,7 +1,7 @@
 ---
 speaker: Daniel Gruss
 topic: Microarchitectural Incontinence - You would leak too if you were so fast!
-video: https://www.youtube.com/embed/cAWmNp3Ukqk?autoplay=1
+video: https://www.youtube.com/watch?v=cAWmNp3Ukqk
 issue: 137
 ---
 

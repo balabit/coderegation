@@ -1,7 +1,7 @@
 ---
 speaker: Omar Eissa
 topic: Network Automation is not your Safe Haven
-video: https://youtu.be/VfnC5iNf3WU
+video: https://youtube.com/watch?v=VfnC5iNf3WU
 issue: 142
 ---
 
