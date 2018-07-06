@@ -16,4 +16,4 @@ As part of this exploration I will introduce 3 novel concepts: lazy decoration, 
 
 Come see my talk if you enjoy nerding out on over-engineering problems, or want to build the next YouTube or Twitter.
 
-The talk is also available in a written form: https://medium.com/@cramforce/designing-very-large-javascript-applications-6e013a3291a3
+The talk is also available in a [written form on Medium](https://medium.com/@cramforce/designing-very-large-javascript-applications-6e013a3291a3).
