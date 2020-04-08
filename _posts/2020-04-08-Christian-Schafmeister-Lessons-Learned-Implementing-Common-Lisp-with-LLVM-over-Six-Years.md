@@ -9,5 +9,4 @@ I will present the lessons learned while using LLVM to efficiently implement a c
 
 Discussion
 ----------
-There is some really impressive stuff discussed in this talk! We were a bit surprised at first about the choice of Lisp, as one would think that a SciPy/NumPy/Pandas/etc. based stack would be an easy to learn and powerful general purpose scientific toolchain (or more generally, a C/C++ and Python based stack can be really powerful for a wide variety of problems where performance and a convenient high-level programming language are needed), but the arguments were convincing about the complexities and the performance penalties that Python introduces.
-
+There is some really impressive stuff discussed in this talk! We were a bit surprised at first about the choice of Lisp, as one would think that a SciPy/NumPy/Pandas/etc. based stack would be an easy to learn and powerful general purpose scientific toolchain (or more generally, a C/C++ and Python based stack can be really powerful for a wide variety of problems where performance and a convenient high-level programming language are both needed), but the arguments were convincing about the complexities and the performance penalties that Python introduces.
